@@ -7,7 +7,7 @@ target 'CITest' do
 
   pod 'RxSwift'
   pod 'RxCocoa'
-  
+  pod 'ObjectMapper'
   pod 'Moya/RxSwift'
   pod 'Moya-ObjectMapper/RxSwift'
 
