@@ -1,5 +1,8 @@
 language: objective-c  #1
+before_install:
+   - rvm use system
+   - sudo gem install cocoapods
 osx_image: xcode10.2 #2
-xcode_project: MovingHelper.xcodeproj #3
+xcode_project: CITest.xcworkspac #3
 xcode_scheme: CITest #4
 xcode_sdk: iphonesimulator12.1 #5
