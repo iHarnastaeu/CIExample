@@ -5,4 +5,4 @@ before_install:
 osx_image: xcode10.2 #2
 xcode_project: CITest.xcworkspac #3
 xcode_scheme: CITest #4
-xcode_sdk: iphonesimulator12.1 #5
+xcode_destination: platform=iOS Simulator,OS=11.3 #5
