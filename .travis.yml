@@ -2,4 +2,4 @@ language: objective-c  #1
 osx_image: xcode10.2 #2
 xcode_workspace: CITest.xcworkspace #3
 xcode_scheme: CITest #4
-xcode_destination: platform=iOS Simulator, id=0CDFE52A-C07F-4B7E-9D43-1670E8ADFD47, OS=12.2, name=iPhone 7 Plus  #5
+xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)  #5
