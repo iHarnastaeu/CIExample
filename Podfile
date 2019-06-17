@@ -5,11 +5,11 @@ target 'CITest' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'RxSwift',    '~> 4.0'
-  pod 'RxCocoa',    '~> 4.0'
+  pod 'RxSwift'
+  pod 'RxCocoa'
   
-  pod 'Moya/RxSwift', '~> 12.0'
-  pod 'Moya-ObjectMapper/RxSwift', '~> 2.8'
+  pod 'Moya/RxSwift'
+  pod 'Moya-ObjectMapper/RxSwift'
 
   target 'CITestTests' do
     inherit! :search_paths
